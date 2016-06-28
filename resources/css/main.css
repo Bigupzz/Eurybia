@@ -1,10 +1,15 @@
+
+
 * {
 	font-family: Arial, Verdana, sans-serif;
 	color: #665544;
-	
+}
+body{
+	margin: 0;
 }
 
-#nav, #feature, .article {
+
+ #feature, .container {
 	background-color: #efefef;
 	margin-top: 20px;
 	padding: 10px 0px 10px 0px;
@@ -12,20 +17,38 @@
 
 footer {
 	background-color: #efefef;
-	margin-top: 50px;
+	margin-top: 20px;
 	padding: 10px 0px 5px 0px;
 }
 
 #nav{
+	background-color: #efefef;
+	margin:auto;
+	padding:10px 0px 10px 0px;
 	text-align: center;
-}
-
-#feature, .article {
-	height: 200px;
+	width:100%;
 }
 
 #nav li {
 	display: inline;
-	padding: 5px;
 	list-style-type: none;
+	padding: 10px;
 }
+
+#feature, .container {
+	height: 100%;
+	padding: 10px;
+
+}
+
+
+
+/*.overlay {
+	position:fixed;
+	width: 100%;
+	height:20%;
+	left: 0;
+	top: 0;
+	background:white;
+	z-index: 10;
+}*/
