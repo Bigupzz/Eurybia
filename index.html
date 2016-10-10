@@ -8,6 +8,20 @@
 	</head>
     
 	<body>
+
+		<div class="hamburgler-menu">
+  <ul class="hamburgler-menu-list">
+    <li><a href="#">services</a></li>
+    <li><a href="#">get a quote</a></li>
+    <li><a href="#">tracking</a></li>
+    
+    
+  </ul>
+        </div>
+
+<div id="hamburgler" class="hamburgler-icon-wrapper">
+  <span class="hamburgler-icon"></span>
+</div>
 		<div class="headwrap">
 			<div class="logo">
 				<p>EURYBIA<br>LOGISTICS<br>INC.</p>
@@ -22,6 +36,31 @@
 				</div>
 			</div>
 		</div>	
+
+<script>
+  document.getElementById('hamburgler').addEventListener('click', checkNav);
+  window.addEventListener("keyup", function(e) {
+    if (e.keyCode == 27) closeNav();
+  }, false);
+
+  function checkNav() {
+    if (document.body.classList.contains('hamburgler-active')) {
+      closeNav();
+    } else {
+      openNav();
+    }
+  }
+
+  function closeNav() {
+    document.body.classList.remove('hamburgler-active');
+  }
+
+  function openNav() {
+    document.body.classList.add('hamburgler-active');
+  }
+</script>
+
+
 	</body>
 </html>
 			
