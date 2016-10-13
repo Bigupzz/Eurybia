@@ -30,8 +30,9 @@
 }
 
 .mainbox {
-	
-	background:black;
+	background-image: url("../images/oceanfreight.jpg");
+  background-size: cover;
+	/*background:black;*/
 	padding: 30px 0;
 }
 
@@ -39,16 +40,39 @@
 
 	height: 180px;
 	width:180px;
-    margin: 0 auto 0 auto;
+  margin: 0 auto 0 auto;
 	border:  5px solid #efff17;
 	color: white;
 	font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.55);
+ 
+  
+
+}
+
+.yellowbox p {
+  
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 5px;
+  font-size:1.1em;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+.slogan {
+  font-family: 'Alfa Slab One', cursive;
+  text-transform: uppercase;
+  margin: 20px auto;
+  max-width: 250px;
+  text-align: center;
+  background-color: #efefef;
 
 }
 
 
 
-/*hamburger menu*/
+/***************hamburger menu********************/
 
 
 .hamburgler-icon-wrapper {
@@ -149,5 +173,5 @@
   transform: translate(-50%, -50%) scale(1)
 }
 
-/*hamburger menu end*/
+/**********************hamburger menu end**********************/
 	
