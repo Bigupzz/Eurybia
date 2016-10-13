@@ -34,6 +34,9 @@
   background-size: cover;
 	/*background:black;*/
 	padding: 30px 0;
+  -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
 }
 
 .yellowbox {
@@ -73,6 +76,9 @@
 .contentbox {
   width: 100%;
   height: 400px;
+  -webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 15px -2px rgba(0,0,0,0.75);
 }
 
 .lightblue {
@@ -81,6 +87,23 @@
 
 .lightpurple {
   background-color: #d8d7e7;
+}
+
+.contentbox p{
+  font-family: 'Abel', sans-serif;
+  padding: 0 20px;
+  font-size: 1.5em;
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+p.title {
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2em;
 }
 
 
