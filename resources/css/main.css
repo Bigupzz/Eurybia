@@ -4,6 +4,10 @@
 	padding:0;
 }
 
+body {
+  /*background-color: #efefef;*/
+}
+
 
 .headwrap{
 	width: 100%;
@@ -86,7 +90,12 @@
 }
 
 .lightpurple {
+
   background-color: #d8d7e7;
+}
+
+.lightgrey {
+  background-color: #efefef;
 }
 
 .contentbox p{
@@ -104,7 +113,37 @@ p.title {
   text-align: center;
   padding: 20px 0;
   font-size: 2em;
+
 }
+
+
+
+.quotereq {
+
+  color: white;
+  background-color: #3591a5;
+  display: block;
+  line-height:3em;
+  max-width: 180px;
+  margin:5px auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color .5s;
+  -webkit-transition: background-color .5s;
+  font-family: 'Abel', sans-serif;
+  border-radius: 5px;
+  
+
+}
+
+.quotereq:hover{
+  background-color: #3578a5;
+ 
+
+
+}
+
 
 
 
