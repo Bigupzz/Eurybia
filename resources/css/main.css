@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  margin: 0 0 150px; /*bottom = footer height */
+  margin: 0 0 500px; /*bottom = footer height */
 }
 
 
@@ -147,14 +147,48 @@ p.title {
 }
 
 
+/************footer******************************************/
+
 footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 150px;
+  height: 500px;  /*if changed must change body margin bottom*/
   width: 100%;
   background-color: #34373d;
+  font-family: 'Abel', sans-serif;
+
 }
+
+footer p{
+  margin-left: 30px;
+}
+
+p.contact{
+  color: #fff;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+p.address {
+  padding: 10px 0;
+  color: #fff;
+}
+
+img.sociali {
+  margin-left: 30px;
+  padding-top: 20px;
+  display: inline-block; 
+}
+
+.socialwrap {
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+/***************footer end************************************/
 
 
 
