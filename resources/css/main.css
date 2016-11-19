@@ -306,7 +306,28 @@ img.sociali {
 
 
 
-@media screen and ()
+@media only screen and (min-width: 1000px){
+
+.clearfix:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.lightblue {
+  float: left;
+  width: 48%;
+}
+
+.lightpurple {
+  float: right;
+  width: 48%;
+}
+
+}
 
 
 
